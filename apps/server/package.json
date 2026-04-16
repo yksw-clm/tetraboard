@@ -1,0 +1,15 @@
+{
+	"name": "@tetraboard/server",
+	"module": "src/main.ts",
+	"type": "module",
+	"scripts": {
+		"typecheck": "tsc --noEmit",
+		"dev": "bun run --watch src/main.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
